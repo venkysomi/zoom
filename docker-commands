@@ -1,0 +1,26 @@
+docker pull ubuntu
+docker images
+docker ps
+docker ps -a
+docker run -it --name test-container containerID
+docker run -dt --name test-conatiner conatinerID
+cntrl pq (To exit the running container)
+docker exec -it containerID /bin/bash
+cntrl pq (To exit from the running container without stopping)
+docker system df -v
+docker system df 
+docker rmi imageID
+docker rm containerID
+docker stop containerID
+docker start containerID
+docker attach containerID
+docker container ls -s (To list the container)
+docker rm -f $(docker ps -a -q) (To delete running containers)
+docker rmi -f $(docker images -aq) (To delete all images)
+docker volume rm $(docker volume ls -q) To delete the volumes
+docker kill $(docker ps -q)
+docker stats ContainerID (To offer the statistics of a running container)
+docker pause ContainerID
+docker unpause ContainerID
+docker kill ContainerID
+docker restart container_name
