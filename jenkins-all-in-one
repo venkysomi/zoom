@@ -16,4 +16,11 @@ stages {
 } 
 
 
-## install pipeline stage view plugin to view the status.
+## install pipeline stage view plugin to see the status.
+
+
+
+jenkins default port: 8080
+sonarqube default port: 9000
+sonarnexus defualt port: 8081
+
