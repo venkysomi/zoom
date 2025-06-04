@@ -16,6 +16,40 @@ stages {
 } 
 
 
+
+
+
+pipeline {
+agent any
+ 
+tools {
+   jdk 'Java21'
+   maven 'Maven3'
+     }
+stages{
+    stage('Git Clone'){
+        steps{
+         git branch: 'main',
+          url: 'https://github.com/venkysomi/Java-working-repo.git'
+        }
+    }
+  stage('Maven build'){
+        steps{
+         sh 'mvn clean package' 
+        }
+    }
+  stage ('Sonarqube Analysis'){
+           steps {
+           withSonarQubeEnv('Sonarqube') {
+           sh '''
+           mvn -e -B sonar:sonar -Dsonar.java.source=1.8  -Dsonar.sourceEncoding=UTF-8
+           '''
+           }
+         }
+      }
+  }
+}
+
 ## install pipeline stage view plugin to see the status.
 
 
