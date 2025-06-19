@@ -1,0 +1,1 @@
+To hide files (not folders) use the command is "attrib +h +s +r enter". To unhide them, use the command "attrib -h -s -r enter"
