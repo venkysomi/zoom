@@ -1,0 +1,5 @@
+COMMMAND To find out wifi passkey:
+    ==> netsh wlan show profile name="network name" key=clear <==
+
+
+
