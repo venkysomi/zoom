@@ -1,0 +1,85 @@
+Full Stack + AI: 120-Day, 2 Hours/Day Roadmap
+Phase 1: Foundations (Days 1–30)
+Programming Basics (Python & JavaScript)
+
+Days 1–10: Python syntax, data types, functions, OOP, basic file I/O.
+
+Days 11–15: JavaScript syntax, DOM, simple scripting in browsers.
+
+Web Development Basics
+
+Days 16–22: HTML, CSS, responsive design, CSS frameworks (Bootstrap, Tailwind).
+
+Days 23–25: Dev tools, code editors, Git basics.
+
+Practice: Build a simple static website portfolio.
+
+Phase 2: Core Full Stack (Days 31–60)
+Frontend Framework (React recommended)
+
+Days 31–40: React fundamentals—components, props, state, event handling.
+
+Days 41–45: Routing, hooks, consuming APIs, component libraries (Chakra, Material-UI).
+
+Backend Framework (Node.js/Express OR Flask for Python)
+
+Days 46–52: Setting up servers, REST APIs, handling requests, middleware.
+
+Days 53–55: Authentication basics, MVC pattern.
+
+Databases
+
+Days 56–60: SQL (PostgreSQL/MySQL)—schema design, CRUD; NoSQL (MongoDB) basics.
+
+Phase 3: AI & Machine Learning Foundations (Days 61–90)
+Math and ML Concepts
+
+Days 61–68: Linear algebra (vectors, matrices), probability, calculus (for ML intuition).
+
+Days 69–75: Data processing with Pandas & NumPy.
+
+Machine Learning Essentials (scikit-learn)
+
+Days 76–80: Regression, classification algorithms, data splitting, model training/testing.
+
+Days 81–85: Deep learning basics (neural nets)—intro to TensorFlow or PyTorch.
+
+Days 86–90: Natural language processing (NLP) with HuggingFace Transformers or NLTK.
+
+Phase 4: AI Integration & Real Projects (Days 91–120)
+Integrate AI into Web Apps
+
+Days 91–95: Build and expose ML models via REST APIs (Flask/FastAPI).
+
+Days 96–102: Connect APIs to frontend apps—display predictions, visualizations.
+
+Cloud Deployment & DevOps
+
+Days 103–108: Deploy app (and model) to cloud: AWS/GCP/Azure/Streamlit/Heroku.
+
+Days 109–112: Version control (GitHub), CI/CD basics.
+
+Capstone Projects & Portfolio
+
+Days 113–120: Pick a project (see ideas below), build and polish for portfolio. Add documentation, prepare a GitHub README.
+
+Example projects:
+
+AI-powered blog or product recommender
+
+Chatbot integrated to a React or Flask app
+
+Image classifier demo site
+
+Sentiment analysis dashboard
+
+Tips for Success
+Document your progress: Use a GitHub repo or a blog.
+
+Supplement with video lectures: (YouTube, Coursera, etc.)
+
+Join developer communities: (Stack Overflow, Discord, Reddit) for support and feedback.
+
+Iterate on projects: Tweak, add features, and reflect on what you’ve learned
+
+If you want an even more granular daily or weekly breakdown with specific online resources (e.g., best free courses or YouTube playlists), let me know your current level (beginner/intermediate) and preferred stack (React, Node.js, Python, etc.)—I can tailor the plan further!
